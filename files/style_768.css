@@ -1,0 +1,110 @@
+@media screen and (max-width: 767px) {
+    .menu-btn {
+        right: 10px;
+    }
+
+    .xs-dnone {
+        display: none;
+    }
+
+    .id-banner h2 {
+        font-size: 35px;
+    }
+
+    .id-banner p {
+        font-size: 14px;
+        padding-top: 0;
+    }
+
+    .id-section .news a {
+        overflow: inherit;
+        text-overflow: inherit;
+        white-space: inherit;
+    }
+
+    .id-section .news a span {
+        display: block;
+    }
+
+
+
+    .nav-tabs {
+        width: auto;
+        border: 1px solid #bbbbbb;
+    }
+
+    .nav-tabs .nav-item {
+        float: left;
+    }
+
+    .in-tabs .tab-content {
+        margin-left: 0;
+        width: 100%;
+        margin-top: -2px;
+    }
+
+    .in-section .select>div {
+        margin: 5px 0;
+    }
+
+    .table-responsive {
+        margin-bottom: 0;
+    }
+
+    .category-items a span {
+        line-height: 1.7;
+        min-height: inherit;
+        display: block;
+        border-right: none;
+        padding: 0 10px 10px 10px;
+    }
+
+    .category-items a .date {
+        text-align: left;
+        padding: 10px 10px 5px 10px;
+    }
+
+    .category-items a .file {
+        display: none;
+    }
+
+    .category-items a .download {
+        padding: 10px 0;
+    }
+
+    .in-section .search-bar .form-control {
+        display: inline-block;
+        width: 42%;
+        margin: 5px 0;
+    }
+
+    .category-items a .go {
+        padding: 0 10px;
+        margin: 0 0 10px 0;
+    }
+
+    .in-section .post .download {
+        margin: 5px 0;
+        width: 100%;
+        padding: 10px;
+    }
+    .in-section .title_1 .date{
+        left: 10px;
+        top: -20px;
+    }
+    .in-section .about2 .about-section img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .nav-tabs .nav-item {
+        width: 50%;
+    }
+
+    .category .type .checkbox label {
+        padding: 0px 4px;
+        font-size: 15px;
+
+    }
+}

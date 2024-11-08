@@ -1,0 +1,269 @@
+@media screen and (max-width: 1239px) {
+	.w1240{
+		padding: 0 30px;
+	}
+	.header h1 a {
+    width: 160px;
+    height: 40px;
+	}
+	.id-banner h2{
+		font-size: 45px;
+	}
+	.id-banner p{
+		font-size: 18px
+	}
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        transition: all 0.2s ease-out;
+        position: absolute;
+        left: 0;
+        width: 100%;
+    }
+
+    body.focus,
+    html.focus {
+        overflow-y: hidden;
+        height: 100%;
+        left: -250px;
+    }
+
+    .w1240 {
+        padding: 0 15px;
+        width: auto;
+    }
+
+    .padding10 {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+    .header {
+        text-align: left;
+    }
+
+    .header h1 {
+        background-size: contain;
+        width: 280px;
+        margin: 15px 0 15px 0;
+    }
+
+    .menu-btn {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        display: inline-block;
+        background: #014099;
+        color: #FFF;
+        padding: 5px 10px;
+        text-align: center;
+    }
+
+    .menu-btn:hover {
+        cursor: pointer;
+    }
+
+    .menu-btn .icon-bar {
+        background-color: #6F6F6F;
+        border-radius: 10px;
+        display: block;
+        height: 6px;
+        margin: 0 auto 4px;
+        width: 30px;
+    }
+
+    .black {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.3);
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: none;
+        z-index: 9998;
+
+    }
+
+    .black.focus {
+        display: block;
+    }
+
+
+    .id-nav {
+        height: 100%;
+        position: fixed;
+        background: #02214e;
+        right: -250px;
+        top: 0;
+        margin: 0;
+        width: 250px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        transition: all 0.2s ease-out;
+        z-index: 9999;
+    }
+
+    .id-nav.focus {
+        right: 0;
+    }
+
+    .id-nav li {
+        display: block;
+    }
+
+    .id-nav li>a {
+        color: #fff;
+        display: block;
+        padding: 10px 10px;
+        box-sizing: border-box;
+    }
+
+    .id-nav li:hover>a:after {
+        width: 0;
+    }
+
+    .id-nav li.inner-box:after {
+        content: "";
+        position: absolute;
+        top: 22px;
+        left: 105px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 5px 5px 0 5px;
+        border-color: #b8bdc5 #02214e #02214e #02214e;
+    }
+
+    .id-nav li .second {
+        position: static;
+        display: block;
+        height: auto;
+        width: 100%;
+        text-align: left;
+        background: #06367b;
+    }
+
+    .id-nav li .second a {
+        padding: 10px 17px;
+        border-bottom: 1px solid #225398;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    .id-nav li.hide {
+        display: block;
+        background: #183054;
+    }
+
+    .id-nav li.hide a {
+        font-size: 16px;
+    }
+
+    .id-nav li.hide a i {
+        margin: 0 10px 0 0;
+    }
+    .id-nav li:last-child{
+        text-align: center;
+    }
+    .id-nav li:last-child .language{
+        padding-top: 20px;
+    }
+    /**/
+    .id-banner {
+        background-position: 35% 20%;
+        text-align: center;
+		height:460px;
+		margin: -180px 0 0 0;
+		padding-top: 260px;
+    }
+
+    .id-banner h2 {
+        font-size: 45px;
+    }
+
+    .id-banner p {
+        font-size: 18px;
+    }
+    .Bridge .runnerR{
+	position: absolute;
+	bottom: -12px;
+	left: 100%;
+	}
+	
+.Bridge .walkerRight{
+	position: absolute;
+	bottom: -12px;
+	left: 100%;
+	}
+	
+.Bridge .walkerL3{
+	position: absolute;
+	bottom: -12px;
+	left: -3.384%;
+	}
+
+.Bridge .travelerL{
+	position: absolute;
+	bottom: -12px;
+	left: -3.384%;
+	}
+
+.Bridge .travelerR{
+	position: absolute;
+	bottom: -12px;
+	left: 100%;
+	}
+    .in-banner{
+        background-position: center;
+    }
+
+    /*首頁中間內容-訊息*/
+    .id-section .news {
+        margin-bottom: 10px;
+    }
+    .in-section .search-bar{
+    text-align: center;
+}
+    .in-section .search-bar .form-control {
+    display: inline-block;
+    width: 15%;
+}
+
+.in-section .post{
+    margin: 0 10px;
+    padding: 25px 25px 10px 25px;
+}
+.category-items a .go{
+    line-height: 40px;
+    min-height: 40px;
+}
+.category-items a .go2{
+    display: none;
+}
+.in-section .post .mar12{
+    margin: 0;
+}
+.in-section .about2 .about-section{
+    margin: 0;
+}.in-section .adviser .color{
+    margin: 16px 0;
+}
+.in-section .adviser .color:hover{
+    margin: 16px 0;
+    box-shadow: 6px 6px 0 #0000001f;
+}
+    /*footer*/
+    .menu-bar {
+        text-align: center;
+    }
+
+    .menu-bar .col-md-4,
+    .menu-bar .col-md-6 {
+        margin: 10px 0;
+    }
+    .down-footer .call{text-align: center;}
+    .down-footer .col-xs-12{
+    	text-align: center;
+    }
+}
