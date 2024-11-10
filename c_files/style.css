@@ -76,9 +76,9 @@ a:focus {
 .header h1 a {
     display: block;
     background: url(./my/logo.png) no-repeat;
-    background-size: 40%;
-    width: 130px;
-    height: 60px;
+    background-size: 80%;
+    width: 100px;
+    height: 90px;
 }
 
 /*主選單*/
